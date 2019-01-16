@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<meterList>
+    <lastMeterId>4</lastMeterId>
+    <Meter>
+        <id>1</id>
+        <location>Location0</location>
+        <scheduleList/>
+    </Meter>
+    <Meter>
+        <id>3</id>
+        <location>Location_update</location>
+        <scheduleList/>
+    </Meter>
+    <Meter>
+        <id>4</id>
+        <location>Location3</location>
+        <scheduleList/>
+    </Meter>
+</meterList>

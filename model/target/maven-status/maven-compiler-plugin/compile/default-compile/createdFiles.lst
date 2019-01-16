@@ -1,0 +1,9 @@
+aaronjenkins/model/ScheduleList.class
+aaronjenkins/model/MeterDAO.class
+aaronjenkins/model/MeterList.class
+aaronjenkins/model/ServiceFactory.class
+aaronjenkins/model/ReplyMessage.class
+aaronjenkins/model/ServiceFacade.class
+aaronjenkins/model/Meter.class
+aaronjenkins/model/RestInterface.class
+aaronjenkins/model/Schedule.class

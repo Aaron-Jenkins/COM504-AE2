@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<replyMessage>
+    <code>200</code>
+    <debugMessage>debug message 1</debugMessage>
+    <meterList>
+        <Meter>
+            <id>0</id>
+            <location>Location0</location>
+            <scheduleList>
+                <schedule>
+                    <rate>5.0</rate>
+                    <startTime>13:00</startTime>
+                </schedule>
+                <schedule>
+                    <rate>2.0</rate>
+                    <startTime>13:30</startTime>
+                </schedule>
+            </scheduleList>
+        </Meter>
+        <Meter>
+            <id>1</id>
+            <location>Location1</location>
+            <scheduleList>
+                <schedule>
+                    <rate>5.0</rate>
+                    <startTime>13:00</startTime>
+                </schedule>
+                <schedule>
+                    <rate>2.0</rate>
+                    <startTime>13:30</startTime>
+                </schedule>
+            </scheduleList>
+        </Meter>
+        <Meter>
+            <id>2</id>
+            <location>Location2</location>
+            <scheduleList>
+                <schedule>
+                    <rate>5.0</rate>
+                    <startTime>13:00</startTime>
+                </schedule>
+                <schedule>
+                    <rate>2.0</rate>
+                    <startTime>13:30</startTime>
+                </schedule>
+            </scheduleList>
+        </Meter>
+    </meterList>
+</replyMessage>
