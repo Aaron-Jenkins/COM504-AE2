@@ -31,13 +31,16 @@
     String errorMessage = "";
 
 
-    Integer meterId = Integer.valueOf(iIdReq);
+    Integer meterId = Integer.valueOf(meterIdReq);
+    Integer i = Integer.valueOf(iIdReq);
     Meter meter = serviceFacade.retrieveMeter(meterId);
     List<Schedule> schedules = meter.getScheduleList().getSchedules();
 
     if ("updateRate".equals(action)) {
-        schedules.get(Integer.valueOf(iIdReq)).setRate(Double.valueOf(rateIdReq));
+        schedules.get(i).setRate(Double.valueOf(rateIdReq));
         serviceFacade.updateMeter(meter);
+        String url = "http://localhost:8680/ListMeters.jsp";
+        response.sendRedirect(url);
     }
 %>
 
@@ -67,12 +70,13 @@
     </tr>
     <tr>
 
-        <td><%=schedules.get(Integer.valueOf(iIdReq)).getStartTime()%></td>
-        <td><%=schedules.get(Integer.valueOf(iIdReq)).getRate()%></td>
-        <td><input type="text" name="rate" value ="<%=schedules.get(Integer.valueOf(iIdReq)).getRate()%>"></td>
+        <td><%=schedules.get(i).getStartTime()%></td>
+        <td><%=schedules.get(i).getRate()%></td>
+        <td><input type="text" name="rate" value ="<%=schedules.get(i).getRate()%>"></td>
         <td>
             <input type="hidden" name="action" value="updateRate">
             <input type="hidden" name="meterId" value="<%=meterId%>">
+            <input type="hidden" name="i" value="<%=i%>">
             <input type="submit" value="update Rate">
         </td>
     </tr>

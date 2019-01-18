@@ -1,0 +1,10 @@
+aaronjenkins.dao.jaxbimpl
+aaronjenkins.dao.jaxbimpl.test
+aaronjenkins.model
+aaronjenkins.model.test
+aaronjenkins.service
+aaronjenkins.service.test
+aaronjenkins.web
+aaronjenkins.web.rest
+aaronjenkins.web.rest.client
+aaronjenkins.web.rest.client.test.manual

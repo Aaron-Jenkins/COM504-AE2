@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="meterService-MeterInterface:war">
+    <output-path>$PROJECT_DIR$/MeterInterface/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>meterService-MeterInterface</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="meterService-MeterInterface-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="meterService-MeterInterface:war exploded" />
+    </root>
+  </artifact>
+</component>

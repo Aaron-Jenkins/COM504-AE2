@@ -1,10 +1,10 @@
-13:44:01.775 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - using dataFile:/home/aaron/Documents/devel/AE2/parkingMeter/meterService/dao-jaxb/target/testDaofile.xml
-13:44:01.778 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - dataFile does not exist creating new /home/aaron/Documents/devel/AE2/parkingMeter/meterService/dao-jaxb/target/testDaofile.xml
-13:44:01.783 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+12:48:23.309 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - using dataFile:/home/aaron/Documents/devel/AE2/parkingMeter/meterService/dao-jaxb/target/testDaofile.xml
+12:48:23.316 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - dataFile does not exist creating new /home/aaron/Documents/devel/AE2/parkingMeter/meterService/dao-jaxb/target/testDaofile.xml
+12:48:23.322 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <meterList/>
 
-13:44:01.783 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - adding meter:Meter{id=null, location=Location0, scheduleList=ScheduleList{schedules=[]}}
-13:44:01.792 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+12:48:23.322 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - adding meter:Meter{id=null, location=Location0, scheduleList=ScheduleList{schedules=[]}}
+12:48:23.332 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <meterList>
     <lastMeterId>1</lastMeterId>
     <Meter>
@@ -14,8 +14,8 @@
     </Meter>
 </meterList>
 
-13:44:01.793 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - adding meter:Meter{id=null, location=Location1, scheduleList=ScheduleList{schedules=[]}}
-13:44:01.796 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+12:48:23.333 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - adding meter:Meter{id=null, location=Location1, scheduleList=ScheduleList{schedules=[]}}
+12:48:23.337 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <meterList>
     <lastMeterId>2</lastMeterId>
     <Meter>
@@ -30,8 +30,8 @@
     </Meter>
 </meterList>
 
-13:44:01.797 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - adding meter:Meter{id=null, location=Location2, scheduleList=ScheduleList{schedules=[]}}
-13:44:01.802 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+12:48:23.337 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - adding meter:Meter{id=null, location=Location2, scheduleList=ScheduleList{schedules=[]}}
+12:48:23.341 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <meterList>
     <lastMeterId>3</lastMeterId>
     <Meter>
@@ -51,8 +51,8 @@
     </Meter>
 </meterList>
 
-13:44:01.802 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - adding meter:Meter{id=null, location=Location3, scheduleList=ScheduleList{schedules=[]}}
-13:44:01.806 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+12:48:23.341 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - adding meter:Meter{id=null, location=Location3, scheduleList=ScheduleList{schedules=[]}}
+12:48:23.344 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <meterList>
     <lastMeterId>4</lastMeterId>
     <Meter>
@@ -77,8 +77,8 @@
     </Meter>
 </meterList>
 
-13:44:01.822 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - deleting  entity:2
-13:44:01.824 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+12:48:23.358 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - deleting  entity:2
+12:48:23.360 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <meterList>
     <lastMeterId>4</lastMeterId>
     <Meter>
@@ -98,9 +98,9 @@
     </Meter>
 </meterList>
 
-13:44:01.833 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - updating entity: Meter{id=3, location=Location2, scheduleList=ScheduleList{schedules=[]}}
-13:44:01.834 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - update template: Meter{id=3, location=Location_update, scheduleList=ScheduleList{schedules=[]}}
-13:44:01.836 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+12:48:23.366 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - updating entity: Meter{id=3, location=Location2, scheduleList=ScheduleList{schedules=[]}}
+12:48:23.366 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - update template: Meter{id=3, location=Location_update, scheduleList=ScheduleList{schedules=[]}}
+12:48:23.368 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <meterList>
     <lastMeterId>4</lastMeterId>
     <Meter>
@@ -120,5 +120,5 @@
     </Meter>
 </meterList>
 
-13:44:01.843 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - updated entity: Meter{id=3, location=Location_update, scheduleList=ScheduleList{schedules=[]}}
-13:44:01.851 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - retreived entity: Meter{id=3, location=Location_update, scheduleList=ScheduleList{schedules=[]}}
+12:48:23.371 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - updated entity: Meter{id=3, location=Location_update, scheduleList=ScheduleList{schedules=[]}}
+12:48:23.374 [main] DEBUG aaronjenkins.dao.jaxbimpl.test.MeterDAOJaxbImplTest - retreived entity: Meter{id=3, location=Location_update, scheduleList=ScheduleList{schedules=[]}}

@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GUI/GUI.iml" filepath="$PROJECT_DIR$/GUI/GUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/meterService.iml" filepath="$PROJECT_DIR$/meterService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MeterInterface/meterService-MeterInterface.iml" filepath="$PROJECT_DIR$/MeterInterface/meterService-MeterInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/dao-jaxb/meterService-dao-jaxb.iml" filepath="$PROJECT_DIR$/dao-jaxb/meterService-dao-jaxb.iml" />
       <module fileurl="file://$PROJECT_DIR$/model/meterService-model.iml" filepath="$PROJECT_DIR$/model/meterService-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-client/meterService-rest-client.iml" filepath="$PROJECT_DIR$/rest-client/meterService-rest-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/meterService-service.iml" filepath="$PROJECT_DIR$/service/meterService-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/swing-client/meterService-swing-client.iml" filepath="$PROJECT_DIR$/swing-client/meterService-swing-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/meterService-web.iml" filepath="$PROJECT_DIR$/web/meterService-web.iml" />
     </modules>
   </component>

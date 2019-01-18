@@ -1,0 +1,78 @@
+@startuml
+
+RestInterface "1..1" -->  "0..*"ReplyMessage : useReplyMessage
+RestInterface "1..1" -->  "1..1"ServiceFactoryFacade : usesObjectFactoryToGetService
+RestInterface "1..1" --> "1..1" ServiceFacade : usesServiceFacade
+interface RestInterface << interface >> {
++ReplyMessage retrieveMatchingMeter (meter meterTemplate)
++ReplyMessage retrievemeter (Integer id)
+}
+
+MeterList <--* "1..1" ReplyMessage : hasMeterList
+class ReplyMessage {
+-Integer code
+-Sting debugMessage
+-MeterList[] meters
+}
+
+class MeterList {
+-List<Meter> meters
++List<Meter> getMeters
++Integer getLastMeterID
++Void setLastMeterID
+}
+
+class ScheduleList {
+-List<Schedule> schedules
++List<Schedule> getSchedules
++Integer getLastMeterID
++Void setLastMeterID
+}
+
+ServiceFactoryFacade "1..1" --> "1..1" ServiceFacade : createAndAccesses
+interface ServiceFactoryFacade <<interface>> {
++ServiceFacade getServiceFacade()
+}
+
+interface WebUiJsp_do_not_generate <<interface>>
+WebUiJsp_do_not_generate "1..1" --> "1..1" ServiceFactoryFacade  :  usesObjectFactoryToGetService
+
+ServiceFacade "1..1" <-- "1..1" WebUiJsp_do_not_generate : usesServiceFacade
+ServiceFacade "1..1" --> "1..1" MeterDAO : extendsMeterDAO
+ServiceFacade --|> MeterDAO : is
+interface ServiceFacade <<interface>> {
+}
+
+
+
+
+
+MeterDAO "1..1" --> "0..*" Meter : usesMeter
+MeterDAO "1..1" --> "0..*" Schedule : usesSchedule
+interface MeterDAO <<interface>> {
++meter createMeter(Meter meter)
++Integer deleteMeter(Integer id)
++Integer retrieveMeter(Integer id)
++List<Meter> retrieveAllMeters()
++Meter retrieveMatchingMeters(Meter meterTemplate)
++Meter updateMeter(Meter meter)
++void deleteAllMeters()
+}
+
+ScheduleList <--* "1..1" Meter : hasScheduleList
+class Meter {
+-Integer id
+-Schedule schedule
++Ticket purchaseTicket()
+}
+
+
+class Schedule {
+-String startTime
+-Double Cost
++String GetstartTime
++Double getCost
++void setStartTime
++void setRate
+}
+@enduml

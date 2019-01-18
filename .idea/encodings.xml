@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MeterInterface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dao-jaxb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rest-client" charset="UTF-8" />

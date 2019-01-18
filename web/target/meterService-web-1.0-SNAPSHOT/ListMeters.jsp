@@ -26,7 +26,6 @@
     String action = (String) request.getParameter("action");
     String meterIdReq = (String) request.getParameter("meterId");
     String meterField_AReq = (String) request.getParameter("location");
-    String meterField_BReq = (String) request.getParameter("scheduleList");
 
     String errorMessage = "";
     if ("deleteMeter".equals(action)) {
@@ -39,14 +38,9 @@
     } else if ("modifyMeter".equals(action)) {
         try {
             Integer meterId = Integer.parseInt(meterIdReq);
-            Meter meterTemplate = new Meter();
-            meterTemplate.setId(meterId);
-            meterTemplate.setLocation(meterField_AReq);
-            //meterTemplate.setScheduleList(meterField_BReq);
-            Meter meter = serviceFacade.updateMeter(meterTemplate);
-            if (meter == null) {
-                errorMessage = "problem modifying Meter. could not find meterId " + meterId;
-            }
+            Meter meter = serviceFacade.retrieveMeter(meterId);
+            meter.setLocation(meterField_AReq);
+            serviceFacade.updateMeter(meter);
         } catch (Exception e) {
             errorMessage = "problem modifying Meter " + e.getMessage();
         }
@@ -54,7 +48,6 @@
         try {
             Meter meterTemplate = new Meter();
             meterTemplate.setLocation(meterField_AReq);
-            //meterTemplate.setScheduleList(meterField_BReq);
             Meter meter = serviceFacade.createMeter(meterTemplate);
             if (meter == null) {
                 errorMessage = "problem creating Meter. Service returned null ";

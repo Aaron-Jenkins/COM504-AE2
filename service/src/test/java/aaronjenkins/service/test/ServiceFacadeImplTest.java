@@ -41,6 +41,12 @@ public class ServiceFacadeImplTest {
         meter.setLocation("Location1");
 
         serviceFacade.createMeter(meter);
+
+        // Test default schedule is creating as expected.
+        for (int i = 0; i < meter.getScheduleList().getSchedules().size(); i++) {
+            System.out.print("Start Time: " + meter.getScheduleList().getSchedules().get(i).getStartTime() + " : ");
+            System.out.println("Rate: " + meter.getScheduleList().getSchedules().get(i).getRate());
+        }
         //List<Meter> retrievedEntities = serviceFacade.retrieveMatchingMeters(meter);
 
         //assertEquals(1, retrievedEntities.size());

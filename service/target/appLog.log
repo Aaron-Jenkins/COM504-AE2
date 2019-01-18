@@ -1,9 +1,9 @@
-13:44:02.998 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - using dataFile:/home/aaron/Documents/devel/AE2/parkingMeter/meterService/service/./target/testfile.xml
-13:44:03.001 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - dataFile does not exist creating new /home/aaron/Documents/devel/AE2/parkingMeter/meterService/service/./target/testfile.xml
-13:44:03.006 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+12:48:24.466 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - using dataFile:/home/aaron/Documents/devel/AE2/parkingMeter/meterService/service/./target/testfile.xml
+12:48:24.469 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - dataFile does not exist creating new /home/aaron/Documents/devel/AE2/parkingMeter/meterService/service/./target/testfile.xml
+12:48:24.474 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <meterList/>
 
-13:44:03.031 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+12:48:24.498 [main] DEBUG aaronjenkins.dao.jaxbimpl.MeterDAOJaxbImpl - saving xml to file:<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <meterList>
     <lastMeterId>1</lastMeterId>
     <Meter>

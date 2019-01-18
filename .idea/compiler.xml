@@ -7,16 +7,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="meterService-dao-jaxb" />
+        <module name="meterService-MeterInterface" />
         <module name="meterService-model" />
         <module name="meterService-rest-client" />
         <module name="meterService-service" />
-        <module name="meterService-swing-client" />
         <module name="meterService-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="meterService" target="1.8" />
       <module name="meterService-dao-jaxb" target="1.8" />
+      <module name="meterService-MeterInterface" target="1.8" />
       <module name="meterService-model" target="1.8" />
       <module name="meterService-rest-client" target="1.8" />
       <module name="meterService-service" target="1.8" />
